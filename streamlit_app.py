@@ -45,4 +45,4 @@ streamlit.dataframe(my_data_rows)
 
 # Allow the end use to ass a fruit to the list
 add_my_fruit = streamlit.multiselect("Add fruits:", list(fruit_load_list.index),['banana','cherry'])
-fruits_to_show2 = mfruit_load_list.loc[add_my_fruit]
+fruits_to_show2 = fruit_load_list.loc[add_my_fruit]
